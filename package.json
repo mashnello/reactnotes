@@ -1,0 +1,24 @@
+{
+  "name": "reactnotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Note.js",
+  "scripts": {
+    "build": "babel js -d build",
+    "start": "open http://localhost:3000 & httpster -p 3000"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
